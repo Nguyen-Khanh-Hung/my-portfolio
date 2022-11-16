@@ -1,5 +1,14 @@
 import "./intro.scss";
 
 export default function Intro() {
-  return <div className="intro">Intro</div>;
+  return (
+    <div className="intro" id="intro">
+      <div className="left">
+        <div className="imgContainer">
+          <img src="assets/avt.png" alt="" />
+        </div>
+      </div>
+      <div className="right"></div>
+    </div>
+  );
 }

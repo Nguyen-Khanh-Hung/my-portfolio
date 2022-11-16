@@ -1,3 +1,20 @@
 .intro {
-  background-color: lightsalmon;
+  background-color: white;
+  display: flex;
+  .left {
+    flex: 0.5;
+    overflow: hidden;
+    .imgContainer {
+      height: 700px;
+      width: 700px;
+      overflow: hidden;
+      background-color: crimson;
+      img {
+        height: 90%;
+      }
+    }
+  }
+  .right {
+    flex: 0.5;
+  }
 }
