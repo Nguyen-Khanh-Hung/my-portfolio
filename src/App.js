@@ -3,7 +3,8 @@ import Topbar from "./components/Topbar/Topbar.jsx";
 import Contact from "./components/contact/Contact.jsx";
 import Menu from "./components/Menu/menu.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
-import Works from "./components/works/Works.jsx";
+import Skills from "./components/Skills/Skills.jsx";
+// import Qualification from "./components/Qualification/Qualification.jsx";
 import React from "react";
 import { useState } from "react";
 import "./app.scss";
@@ -16,7 +17,8 @@ function App() {
       <div className="sections">
         <Intro></Intro>
         <Portfolio></Portfolio>
-        <Works></Works>
+        <Skills></Skills>
+
         <Contact></Contact>
       </div>
     </div>
