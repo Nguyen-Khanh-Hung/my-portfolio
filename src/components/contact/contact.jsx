@@ -5,7 +5,7 @@ export default function Contact() {
   const [message, setMessage] = useState(false);
   const handleSubmit = (e) => {
     e.preventDefault();
-    setMessage(true);
+    setMessage(!message);
   };
   return (
     <div className="contact" id="contact">

@@ -10,4 +10,7 @@
     color: white;
     border-radius: 10px;
   }
+  @include mobile {
+    padding: 8px;
+  }
 }
