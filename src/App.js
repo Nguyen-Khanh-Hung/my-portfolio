@@ -1,6 +1,6 @@
 import Intro from "./components/intro/Intro.jsx";
 import Topbar from "./components/Topbar/Topbar.jsx";
-import Contact from "./components/contact/Contact.jsx";
+import Contact from "./components/contact/contact.jsx";
 import Menu from "./components/Menu/menu.jsx";
 import Portfolio from "./components/portfolio/Portfolio.jsx";
 import Skills from "./components/Skills/Skills.jsx";
